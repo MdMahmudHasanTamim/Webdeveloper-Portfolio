@@ -91,6 +91,11 @@ nav > ul{
 
  /*main section style start*/
 
+ main{
+    max-width: 1140px;
+    margin: 0px  auto;
+ }
+
  .about{
     padding: 130px;
     border-radius: 10px;
@@ -111,5 +116,14 @@ nav > ul{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+ }
+
+ .about-info-container{
+    display: flex;
+    justify-content: space-around ;
+ }
+
+ .about-info{
+    text-align: center;
  }
 
